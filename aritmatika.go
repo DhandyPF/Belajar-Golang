@@ -3,9 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	var a = 10
-	var b = 20
-	var c = 30
+	var a = 20
+	var b = 30
+	var c = 40
 
 	// Penjumlahan
 	var penjumlahan = a + b + c
