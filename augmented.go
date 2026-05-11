@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var a = 10
+	var a = 100
 
 	// Penjumlahan
 	a += 100
