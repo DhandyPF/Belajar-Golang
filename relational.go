@@ -5,8 +5,8 @@ import "fmt"
 func main() {
 
 	// Relational
-	var a = 10
-	var b = 20
+	var a = 20
+	var b = 30
 
 	var result3 bool = a > b
 	fmt.Println(result3)
