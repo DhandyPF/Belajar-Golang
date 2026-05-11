@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	bulan := [...]string{
+	moons := [...]string{
 		"Januari",
 		"Februari",
 		"Maret",
@@ -18,17 +18,32 @@ func main() {
 		"Desember",
 	}
 
-	// fmt.Println(bulan)
+	// fmt.Println(moons)
 
-	slice1 := bulan[5:10]
+	slice1 := moons[5:10]
 	fmt.Println(slice1)
 
-	slice2 := bulan[:3]
+	slice2 := moons[:3]
 	fmt.Println(slice2)
 
-	slice3 := bulan[9:]
+	slice3 := moons[9:]
 	fmt.Println(slice3)
 
-	slice4 := bulan[:]
+	slice4 := moons[:]
 	fmt.Println(slice4)
+
+	panjangSlice1 := len(slice1)
+	fmt.Println(panjangSlice1)
+
+	kapasitasSlice1 := cap(slice1)
+	fmt.Println(kapasitasSlice1)
+
+	days := [...]string{"Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu", "Minggu"}
+	daySlice1 := days[5:]
+	fmt.Println(days)
+	fmt.Println(daySlice1)
+
+	daySlice1[0] = "Sabtu Baru"
+	daySlice1[1] = "Minggu Baru"
+	fmt.Println(daySlice1)
 }
