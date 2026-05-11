@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	var j = 1
+	var j = 2
 
 	// Increment
 	j++ // j = j + 1
