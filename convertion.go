@@ -10,4 +10,12 @@ func main() {
 	fmt.Println(nilai32)
 	fmt.Println(nilai64)
 	fmt.Println(nilai16)
+
+	var name = "Dhandy Putra Fahruddin"
+	var d uint8 = name[0]
+	var dString = string(d)
+
+	fmt.Println(name)
+	fmt.Println(d)
+	fmt.Println(dString)
 }
