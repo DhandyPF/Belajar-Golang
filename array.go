@@ -25,6 +25,7 @@ func main() {
 		3,
 		4,
 		5,
+		6,
 	}
 
 	fmt.Println(values2)
