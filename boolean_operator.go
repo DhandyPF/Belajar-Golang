@@ -4,7 +4,7 @@ import "fmt"
 func main() {
 	// Boolean Operator
 	var nilaiAkhir = 90
-	var absensi = 80
+	var absensi = 70
 
 	var lulusNilaiAkhir bool = nilaiAkhir > 80
 	var lulusAbsensi bool = absensi > 80
