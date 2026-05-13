@@ -8,8 +8,4 @@ func sayHello() {
 
 func main() {
 	sayHello()
-	sayHello()
-	sayHello()
-	sayHello()
-	sayHello()
 }
