@@ -8,19 +8,19 @@ type customer struct {
 }
 
 func main() {
-	var a customer
-	a.Name = "Dimas,"
-	a.Address = "Depok,"
-	a.Age = 100
-	fmt.Println(a)
+	var dimas customer
+	dimas.Name = "Dimas,"
+	dimas.Address = "Depok,"
+	dimas.Age = 100
+	fmt.Println(dimas)
 
-	b := customer {
+	willy := customer {
 		Name: "Willy,",
 		Address: "Sokaraja,",
 		Age: 11,
 	}
-	fmt.Println(b)
+	fmt.Println(willy)
 
-	c := customer{"Kautsar,", "PWT,", 10}
-	fmt.Println(c)
+	kautsar := customer{"Kautsar,", "PWT,", 10}
+	fmt.Println(kautsar)
 }
