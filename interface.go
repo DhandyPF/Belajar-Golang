@@ -26,10 +26,6 @@ func (animal Animal) GetName() string {
 	return animal.Name
 }
 
-func Ups() interface{} {
-	
-}
-
 func main() {
 	person := Person{Name: "Dimas"}
 	sayHello(person)
