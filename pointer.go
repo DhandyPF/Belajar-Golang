@@ -7,8 +7,16 @@ type Address struct {
 }
 
 func main() {
-	address1 := Address{"Purwokerto", "Jawa Tengah", "Indonesia"}
-	address2 := address1
+	// address1 := Address{"Purwokerto", "Jawa Tengah", "Indonesia"}
+	// address2 := address1
+
+	// address2.City = "Purbalingga"
+
+	// fmt.Println(address1)
+	// fmt.Println(address2)
+
+	var address1 Address = Address{"Purwokerto", "Jawa Tengah", "Indonesia"}
+	var address2 *Address = &address1
 
 	address2.City = "Purbalingga"
 
